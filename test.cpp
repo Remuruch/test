@@ -40,6 +40,16 @@ int main() { // ГЛАВНАЯ ФУНКЦИЯ
 
     std::cout << "NEW main commit!!" << std::endl;
 
+    /*
+    ADASDASD
+    ASDASD
+    ASDASD
+    ASDASDASDASD
+    ASDASDAS
+    DASDASDAS
+    DASDASDASD
+    */
+
     int a;
     std::cin >> a;
     return 0;

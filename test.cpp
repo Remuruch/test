@@ -39,6 +39,7 @@ public:
 };
 
 int main() { // ГЛАВНАЯ ФУНКЦИЯ
+    std::cout << "Object class anti" << std::endl;
     Anti<int> shmaaa("Virus", 200, "Danger"); // ОБЬЕКТ ШМА КЛАССА АНТИ
     shmaaa.get_info();
 

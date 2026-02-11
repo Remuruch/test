@@ -9,27 +9,27 @@ ADAsdaSd
 aSdASDASdAdaSd
 */
 
-template <class T>
-class Anti {
+template <class T> // шаблое
+class Anti { // КЛАСС АНТИ
 private:
     std::string name = "None";
     T age = 0;
     std::string type = "None";
 
 public:
-    Anti(std::string name, T age, std::string type) {
+    Anti(std::string name, T age, std::string type) { // КОНСТРУКТОР
         this->name = name;
         this->age = age;
         this->type = type;
 
     }
 
-    void get_info() {
+    void get_info() { // ИНФА
         std::cout << "NAME: " << name << "AGE: " << age << "TYPE: " << type << std::endl;
 
     }
     
-    ~Anti() {
+    ~Anti() { // ДЕСТРУКТОР
         name = "None";
         age = 0;
         type = "None";
@@ -38,8 +38,8 @@ public:
 
 };
 
-int main() {
-    Anti<int> shmaaa("Virus", 200, "Danger");
+int main() { // ГЛАВНАЯ ФУНКЦИЯ
+    Anti<int> shmaaa("Virus", 200, "Danger"); // ОБЬЕКТ ШМА КЛАССА АНТИ
     shmaaa.get_info();
 
     std::cout << "Description hm hm hm?" << std::endl;

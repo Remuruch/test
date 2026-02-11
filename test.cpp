@@ -1,14 +1,6 @@
 #include <iostream>
 #include <string>
 
-/*
-sdasdADSASDASD
-aasdasdasda
-HELlO WORLD!!
-ADAsdaSd
-aSdASDASdAdaSd
-*/
-
 template <class T> // шаблое
 class Anti { // КЛАСС АНТИ
 private:
